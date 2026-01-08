@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #eeeeee;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #230909;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.events-table th,
+.events-table td {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.join-button,
+.drop-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-event-section {
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.add-event-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.add-event-section input,
+.add-event-section textarea {
+  padding: 5px;
+  font-size: 14px;
+}
